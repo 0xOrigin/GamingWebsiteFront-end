@@ -1,0 +1,286 @@
+html
+{
+    scroll-behavior:smooth;
+}
+* {
+    box-sizing: border-box;
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(126, 126, 126); 
+    border-radius: 0px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background:#222; 
+    border-radius: 25px;
+    animation: 10s ease-in-out;
+    block-size: 10px;
+  
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(63, 62, 62); 
+}
+
+
+
+.compare-box {
+  background-color: #ffff;
+  text-align: center;
+  justify-content: center;
+  cursor: default;
+  min-height:900px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: #222;
+  border-left-width:100px;
+
+}
+
+.compare-box h1 {
+  background-color: #1c1c1d;
+  margin: 60px 0px 60px 0px;
+  padding: 1rem;
+  padding: #222;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 40px;
+  border-width: 2px 0px;
+  border-top-left-radius: 47px;
+  border-top-right-radius: 47px;
+  box-shadow: 0px 16px 32px 0px  rgba(0,0,0,0.2);
+  cursor: default;
+}
+.compare-box .compare-controls .first-head , .compare-box .compare-controls .second-head {
+    display: inline-block;
+    color: #222;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0.1px 0.1px black;
+    stroke: black;
+    font-weight: bold;
+}
+
+.compare-box .compare-controls {
+    position: relative;
+    top: 35px;
+}
+
+.compare-box .compare-controls .first-head {
+    background-color: #222;
+    outline: 4px;
+    margin: 103px 80px 0px;
+    width: 240px;
+    height: 30px;
+    padding: 5px 10px 10px;
+    font-size: 14px;
+    border-color: black;
+    border-width: 0.8px;
+    border-radius: 16px;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+.compare-box .compare-controls .second-head {
+    background-color: #222;
+    outline: 4px;
+    margin: 103px 80px 00px;
+    width: 240px;
+    height: 30px;
+    padding: 5px 10px 10px;
+    font-size: 14px;
+    border-color: black;
+    border-width: 0.8px;
+    border-radius: 16px;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+.compare-box .compare-controls #first-game , .compare-box .compare-controls #second-game {
+    background-color: #222;
+    outline: 4px;
+    margin: 103px 80px 20px;
+    width: 240px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-color: black;
+    border-width: 0.8px;
+    border-radius: 16px;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.compare-box .compare-controls button {
+    background-color: #222;
+    border-width: 2px;
+    border-color: rgb(70, 70, 70);
+    border-radius: 26px;
+    height: 40px;
+    width: 320px;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 80px auto 45px;
+    display: block;
+    color: #FFFF;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    outline: 2px;
+}
+
+.compare-box .compare-controls button:hover , .compare-box .compare-controls button:focus {
+    box-shadow: 0px 20px 32px 0px  rgba(0,0,0,0.3);
+}
+
+.compare-box .compare-data {
+    display: none;
+    margin: 10px 10px 20px 10px;
+
+}
+
+.compare-box .compare-data .back-btn {
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 75px;
+}
+
+.compare-box .compare-data table {
+    margin: 10px auto; 
+    display: inline-block;
+    border-radius: 16px;
+    border: 10px ;
+    border-color: rgb(70, 70, 70);
+}
+
+
+#firstGenre, #firstReleaseDate,#firstDeveloper,#firstPublisher,#firstPlatform,#firstProcessor,#firstMemory,#firstGraphics,#firstStorage{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 10px ;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+#secondGenre, #secondReleaseDate,#secondDeveloper,#secondPublisher,#secondPlatform,#secondProcessor,#secondMemory,#secondGraphics,#secondStorage
+{
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border: 10px ;
+border-color: rgb(0, 0, 0);
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+.compare-box .compare-data table {
+    border-width: 0px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 0px;
+}
+
+.compare-box .compare-data table tr .first-td {
+    border-width: 0px;
+    border-style: groove;
+    border-color: black;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.0);
+}
+
+.compare-box .compare-data table tr td {
+    padding: 10px;
+}
+
+.data{color: rgb(70, 70, 70);}
+
+.compare-box .compare-data table tr th{
+    height: 80px;
+    padding-top: 3px;
+    background-color: black;
+    position: relative;
+}
+
+.compare-box .compare-data table tr .sysReq {
+    border-radius: 0px;
+    border: 10px ;
+    border-color: rgb(70, 70, 70);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    border-width: 3px;
+}
+
+.compare-box .compare-data table .data {
+    width: 360px;
+    font-size: 14px;
+}
+
+.compare-box .compare-data table #firstLogo , .compare-box .compare-data table #secondLogo{
+    width: 150px;
+    height: 75px;
+    border-radius: 6px;
+    left: 0;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.compare-box .compare-data table #firstName , .compare-box .compare-data table #secondName{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 150px;
+    right: 0px;
+    margin: 0px auto;
+    color: rgb(255, 255, 255);
+    font-weight: bold   ;
+    font-size: 20px;
+
+}
+
+.compare-box .compare-data table .th-layer {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    background-color: #242526;
+    opacity: 0.60;
+    background-size: cover;
+    width: 375px;
+    height: 72px;
+    border-radius: 6px;
+}
+
+.compare-box .compare-data table .titles {
+    font-size: 16px;
+    background-color: #222;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: rgb(70, 70, 70);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    color: #fff;
+ 
+}
+
+
+
