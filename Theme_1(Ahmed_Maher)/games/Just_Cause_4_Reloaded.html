@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Just Cause 4 Reloaded | Depot Games</title>
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/bootstrap.min.css" media="all" />
+        <link rel="stylesheet" href="../css/stylehome.css" media="all" />
+        <link rel="stylesheet" href="../css/nav.css" media="all" />
+        <link rel="stylesheet" href="../css/header.css" media="all" />
+        <link rel="stylesheet" href="../css/footer.css" media="all" />
+        <link rel="stylesheet" href="../css/data.css" media="all" />
+        <link rel="stylesheet" href="../css/w3.css" media="all">
+        <script src="../js/data.js"></script>    
+    </head>
+
+        <body>
+            <script language="javascript" type="text/javascript" src="header.txt"></script>
+            <script language="javascript" type="text/javascript" src="nav.txt"></script>
+            <div class="content">
+                <div class="main">
+                    
+                   
+                         
+                    <h1 id="game_name"></h1>
+                        <div class="data-img">
+    
+                            <img src="" alt="" id="game_pic">
+                        
+                        </div>
+    
+                           <br><br>
+                            <div class="logo-box"><img src="" alt="" id="game_logo"></div>
+                            <div class="info">
+                                <div class="info1">
+                                <div id="Genre"><h2><span class="titleofinfo">Genre</span><span> : </span><span id="game_genre"></span></h2></div>
+                                <div id="Release_Date"><h2><span class="titleofinfo">Release Date</span><span> : </span><span id="game_releaseDate"></span></h2></div>
+                            </div>
+                            <div class="info2"><div id="Developer"><h2><span class="titleofinfo">Developer</span><span> : </span><span id="game_developer"></span></h2></div></div>
+                            <div class="info3">
+                                <div id="Publisher"><h2><span class="titleofinfo">Publisher</span><span> : </span><span id="game_publisher"></span></h2></div>
+                                <div id="Platform"><h2><span class="titleofinfo">Platform</span><span> : </span><span id="game_platform"></span></h2></div>
+                              </div>
+                            </div>
+                            <div class="Description">
+    
+                                <h2><span class="titleofinfo">Description</span><span> : </span><span id="game_description"></span></h2>
+                            </div>
+    
+                            <div class="System_Requirements">
+                                <span class="titleofinfo">System Requirements</span>
+                                    <h2 class="sysReq">Processor<span> : </span><span id="game_processor"></span> .</h2>
+                                    <h2 class="sysReq">Memory<span> : </span><span id="game_memory"></span> .</h2>
+                                    <h2 class="sysReq">Graphics<span> : </span><span id="game_graphics"></span> .</h2>
+                                    <h2 class="sysReq">Storage<span> : </span><span id="game_storage"></span> .</h2>
+                              
+                            </div>
+                            <br>
+                        </div>
+                
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up"></i></button>
+         
+        <script>
+            document.getElementById("game_pic").setAttribute("src", "../" + JC4R.pic);
+            document.getElementById("game_pic").setAttribute("alt", "JC4R Picture");
+            document.getElementById("game_logo").setAttribute("src", "../" + JC4R.logo);
+            document.getElementById("game_logo").setAttribute("alt", "JC4R Logo");
+            document.getElementById("game_logo").setAttribute("title", JC4R.name + " Logo");
+            document.getElementById("game_name").innerHTML = JC4R.name;
+            document.getElementById("game_genre").innerHTML = JC4R.genre;
+            document.getElementById("game_releaseDate").innerHTML = JC4R.releaseDate;
+            document.getElementById("game_developer").innerHTML = JC4R.developer;
+            document.getElementById("game_publisher").innerHTML = JC4R.publisher;
+            document.getElementById("game_platform").innerHTML = JC4R.platform;
+            document.getElementById("game_description").innerHTML = JC4R.description;
+            document.getElementById("game_processor").innerHTML = JC4R.processor;
+            document.getElementById("game_memory").innerHTML = JC4R.memory;
+            document.getElementById("game_graphics").innerHTML = JC4R.graphics;
+            document.getElementById("game_storage").innerHTML = JC4R.storage;
+        </script>          
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/data.js"></script>
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/home.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script language="javascript" type="text/javascript" src="footer.txt"></script>
+    </body>
+</html>

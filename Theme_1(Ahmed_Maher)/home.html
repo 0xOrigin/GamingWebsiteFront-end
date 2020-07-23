@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="Home" content="Depot Games Home" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<head>
+		<script src="js/jquery-3.4.1.min.js"></script>
+	</head>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/stylehome.css" media="all" />
+	<link rel="stylesheet" href="css/nav.css" media="all" />
+	<link rel="stylesheet" href="css/header.css" media="all" />
+	<link rel="stylesheet" href="css/footer.css" media="all" />
+	<link rel="stylesheet" href="css/w3.css">
+    <script src="js/data.js"></script>
+	<title>Home</title>
+
+
+</head>
+
+
+<body>
+		
+
+    <script language="javascript" type="text/javascript" src="header.txt"></script>	
+    <script language="javascript" type="text/javascript" src="nav.txt"></script>	
+
+   
+	<div class="content">
+
+		<div class="main">
+            
+            <div id="slider">
+				<div id="box">
+					<img src="../images/6.jpg" />
+				</div>
+				<div class="layer"></div>  
+				<h1 class="caption">Join the Battle</h1>
+					<div class="subcaption">For those in need of some fun and new ways to stay occupied,
+						we’ve put together a list of currently free games
+						that can hopefully play even a small part in bringing you some virtual comfort,
+						escape, and togetherness right now.
+					</div>
+				<button class="prew fa fa-chevron-circle-left" onclick="setInterval(prewImage(),5000)" title="Previous"></button>
+				<button class="next fa fa-chevron-circle-right" onclick="setInterval(nextImage(),5000)" title="Next"></button>
+			</div>
+            <div class="hotGames-box">
+                <a href="#hot_games" style="text-decoration: none;"></a>
+                <div class="hG-b">
+                    <h1 class="hot-head">Top of The Year</h1>
+                    <div class="sep"></div>
+                    <br/>
+                    <div class="flex-box1">
+                        <a href="games/The_Witcher_3_Wild_Hunt.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="TWWH3_Logo" class="game-img">
+                               
+                                <h2 id="TWWH3_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                        <a href="games/Red_Dead_Redemption2.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="RDR2_Logo" class="game-img">
+                               
+                                <h2 id="RDR2_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                        <div class="flex-box2">
+                            
+                        <a href="games/HITMAN.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="HITMAN_Logo" class="game-img">
+                               
+                                <h2 id="HITMAN_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                        <a href="games/Metal_Gear_Solid_V.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="MGSVTPP_Logo" class="game-img">
+                                <h2 id="MGSVTPP_name" class="game-name"></h2>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                    <div class="flex-box3">
+                        <a href="games/ASSASSIN’S_CREED_ORIGINS.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="ACO_Logo" class="game-img">
+                               
+                                <h2 id="ACO_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                        <a href="games/Watch_Dogs2.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="WD2_Logo" class="game-img">
+                               
+                                <h2 id="WD2_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+	</div>
+  
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up"></i></button>
+
+    <script language="javascript" type="text/javascript" src="footer.txt"></script>
+
+    <script>
+        document.getElementById("TWWH3_Logo").setAttribute("src", TWWH3.logo);
+        document.getElementById("TWWH3_name").innerHTML = TWWH3.name;
+        document.getElementById("ACO_Logo").setAttribute("src", ACO.logo);
+        document.getElementById("ACO_name").innerHTML = ACO.name;
+        document.getElementById("WD2_Logo").setAttribute("src", WD2.logo);
+        document.getElementById("WD2_name").innerHTML = WD2.name;
+        document.getElementById("RDR2_Logo").setAttribute("src", RDR2.logo);
+        document.getElementById("RDR2_name").innerHTML = RDR2.name;
+        document.getElementById("HITMAN_Logo").setAttribute("src", HITMAN.logo);
+        document.getElementById("HITMAN_name").innerHTML = HITMAN.name;
+        document.getElementById("MGSVTPP_Logo").setAttribute("src", MGSVTPP.logo);
+        document.getElementById("MGSVTPP_name").innerHTML = MGSVTPP.name;
+    </script>
+
+
+    	<script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+	
+</body>
+
+</html>
