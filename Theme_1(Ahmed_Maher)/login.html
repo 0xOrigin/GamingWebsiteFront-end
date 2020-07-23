@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="login" content="login to DGames"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="css/login.css" media="all"/>
+	
+		<script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+	<title>Signin&Signup</title>
+
+
+</head>
+
+
+<body>
+
+<header>
+<div class="d">
+			<div class="DG">
+				<br><br>
+				<a href="home.html"><h1>Depot Games</h1></a>
+				<br><br>
+			</div>
+
+</div>
+
+</header>
+
+ 
+
+
+<div class="container" id="container">
+	
+	
+					<div class="form-container sign-up-container" >
+						
+						<form id="signupForm" method="GET">
+							<h1>Create Account</h1>
+							<div class="social-container">
+								
+								<a href="#" class="social facebook"><i class="fab fa-facebook-f"></i>f</a>
+								<a href="#" class="social google"><i class="fab fa-google-plus-g"></i>G</a>
+							
+								</div>
+							
+							<span>or use your email for registration</span>
+						
+							<div class="siginupinputs">
+								<input type="text" placeholder="Name" id="name"/>
+								<input type="text" placeholder="Username" id="username" />
+								<input type="email" placeholder="Email" id="email" style=" grid-column: 1 / 5;margin-left:10%;margin-right:10%; "/>
+								<input type="password" placeholder="Password" id="password" />
+								<input type="password" placeholder="Confirm Password" id="confirmpassword" />
+							</div>
+
+							<button type="submit" onclick="return validateForm()">Sign Up</button>
+
+						</form>
+
+					</div>
+		
+	
+	
+	
+					<div class="form-container sign-in-container">
+						<form id="signinForm" method="GET">
+							<h1>Sign in</h1>
+							<div class="social-container">
+								
+								<a href="#" class="social facebook"><i class="fab fa-facebook-f"></i>f</a>
+								<a href="#" class="social google"><i class="fab fa-google-plus-g"></i>G</a>
+							
+								</div>
+								<span>or use your account</span>
+								<input type="email" placeholder="Email" id="signinemail" />
+								<input type="password" placeholder="Password" id="signinpassword"/>
+									
+										<div class="form-group form-check" display="inline">
+										   <label class="form-check-label">
+											 <input class="form-check-input" type="checkbox"> Remember me
+										   </label>
+										 </div>
+								
+								<button class="gost" id="reset" style="color:#222;background-color: #FFFFFF;border:0;font-weight: bold;">Forgot your password ?</button>
+								<button type="submit">Sign In</button>
+									</form>
+						</div>
+					
+					<div class="form-container password-container">
+						<form id="sendForm"  method="GET">
+							<h1>Reset Your Password</h1>
+							<input type="email" placeholder="Email" id="sendpasword"/><br>
+							<button>Send Password Reset E-mail</button>
+									</form>
+					</div>
+					
+					
+					<div class="overlay-container">
+						
+						<div class="overlay">
+							<br>
+							<button class="ghost" id="signIn">Sign In</button>
+							<button class="ghost" id="signUp">Sign Up</button>
+							
+						</div>
+						
+					</div>
+</div>
+
+
+
+
+<script src="js/login.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/sweetalert2.all.min.js"></script>
+
+
+</body>	
+</html>
