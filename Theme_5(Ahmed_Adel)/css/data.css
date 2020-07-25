@@ -1,0 +1,237 @@
+body{
+    width:95vw;
+    
+}
+.kk{
+    width: 95vw;
+}
+
+
+header nav li{
+    margin: 0 35px;
+    padding-top: 12px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+nav{
+    
+    
+    background-color: 	#A9A9A9  ;
+    top:0%;
+    right: 0%;
+    width:102.5%;
+    
+}
+. head header::after{
+    content: '';
+    display: table;
+    
+}
+nav{
+    float: left;
+    height: 70px;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-right radial-out{
+    float:left;
+}
+nav a{
+    color:#FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    right:35%;
+    
+}
+ nav a:hover{
+    color: crimson;
+}
+nav a:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+nav a ::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: crimson;
+    position: absolute;
+    top:0%;
+    width:0%;
+    transition: all ease-in-out 1000ms;
+  
+}
+nav a :hover::before{
+    width: 100%;
+}
+
+body{
+    background-color: #A9A9A9;
+}
+.tme li{ 
+    text-decoration: none;
+}
+.wrapper ul{
+    list-style: none;
+    margin-top: 2%
+}
+.wrapper ul li{
+    background: transparent;
+    width: 90px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    
+    font-size: 14px;
+    position: relative;
+    font-family: 'Krona One', sans-serif;
+    transition: .6s;
+    
+}
+.wrapper ul li:hover{
+    background: crimson;
+    
+}
+.wrapper ul ul{
+    display: none;
+}
+.wrapper ul li:hover > ul{
+    display: block;
+    
+}
+.wraper ul ul ul{
+    margin-left: 170px;
+    top: 0%;
+    position: absolute;
+}
+
+.wrapper{
+    float: right;
+ 
+   
+}
+
+footer{
+    bottom: 0%;
+    width:103%;
+    height: 190px;
+    background-color: #222;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Krona One', sans-serif;
+    
+    
+}
+footer a {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 30px;
+    padding: 20px 20px;
+    color:#fff;
+    border: 1px solid #fff;
+    border border-radius: 50%;
+    transition: .5s;
+    cursor:pointer;
+    
+    margin-top:50px;
+
+    
+}
+.copyrights{
+    position: absolute;
+    left: 25%;
+    margin-top: 20px;
+}
+footer a:hover{
+    color:crimson;
+    
+    transform: scale(1.1);
+}
+.mss{
+    text-decoration: none;
+    border: none;
+    
+}
+.data-box{
+    border: 5px solid #fff;
+    border-radius: 22.5px;
+    height: 1100px;
+    position: absolute;
+    top: 15%;
+    position: absolute;
+    text-shadow: 2px 2px 2px #fff; 
+}
+#game_pic{
+    width: 1450px;
+    height: 200px;  
+    border: 6px solid #fff;
+    border-radius: 22.5px;
+    margin-top: 10px;
+    opacity: .8;
+    
+}
+#game_name{
+    position: absolute;
+    top:5%;
+    left: 35%;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #222; 
+}
+#game_logo{
+    
+    margin-left: 500px;
+    width: 500px;
+    height: 150px;  
+    border: 6px solid #fff;
+    border-radius: 22.5px;
+    margin-top: 10px;
+    opacity: .6;
+    transition: .5s;
+    cursor: pointer;
+    margin-bottom: 100px;   
+}
+#game_logo:hover{
+    transform: scale(1.1);
+    border: 5px solid #222;
+    opacity: 1;
+}
+#mood,.sysReq{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 2px 2px #222;
+}
+
+#game_description,#moodo{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 2px 2px #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,374 @@
+body{
+    width:95vw;
+    
+}
+.kk{
+    width: 95vw;
+}
+
+
+header nav li{
+    margin: 0 35px;
+    padding-top: 12px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+nav{
+    
+    
+    background-color: 	#A9A9A9  ;
+    top:0%;
+    right: 0%;
+    width:102.5%;
+    
+}
+. head header::after{
+    content: '';
+    display: table;
+    
+}
+nav{
+    float: left;
+    height: 70px;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-right radial-out{
+    float:left;
+}
+nav a{
+    color:#FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    right:35%;
+    
+}
+ nav a:hover{
+    color: crimson;
+}
+nav a:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+nav a ::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: crimson;
+    position: absolute;
+    top:0%;
+    width:0%;
+    transition: all ease-in-out 1000ms;
+  
+}
+nav a :hover::before{
+    width: 100%;
+}
+
+body{
+    background-color: #A9A9A9;
+}
+.tme li{ 
+    text-decoration: none;
+}
+.wrapper ul{
+    list-style: none;
+    margin-top: 2%
+}
+.wrapper ul li{
+    background: transparent;
+    width: 90px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    
+    font-size: 14px;
+    position: relative;
+    font-family: 'Krona One', sans-serif;
+    transition: .6s;
+    
+}
+.wrapper ul li:hover{
+    background: crimson;
+    
+}
+.wrapper ul ul{
+    display: none;
+}
+.wrapper ul li:hover > ul{
+    display: block;
+    
+}
+.wraper ul ul ul{
+    margin-left: 170px;
+    top: 0%;
+    position: absolute;
+}
+
+.wrapper{
+    float: right;
+ 
+   
+}
+
+footer{
+    bottom: 0%;
+    width:103%;
+    height: 190px;
+    background-color: #222;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Krona One', sans-serif;
+    
+    
+}
+footer a {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 30px;
+    padding: 20px 20px;
+    color:#fff;
+    border: 1px solid #fff;
+    border border-radius: 50%;
+    transition: .5s;
+    cursor:pointer;
+    
+    margin-top:50px;
+
+    
+}
+.copyrights{
+    position: absolute;
+    left: 25%;
+    margin-top: 20px;
+}
+footer a:hover{
+    color:crimson;
+    
+    transform: scale(1.1);
+}
+.mss{
+    text-decoration: none;
+    border: none;
+    
+}
+.caption{
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    color:#00FF00;     
+    font-size: 45px;
+    animation: move .9s linear;
+    text-shadow: 2px 2px 2px #fff;
+    position: absolute;
+    top:70%;
+    left: 35%;
+}
+@keyframes move{
+    0%{
+        opacity: 0;
+        transform: translate(-1600px) rotate(-50deg);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0)rotate(0deg);
+        
+    }
+}
+.subcaption{
+    color:#e8461a;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Krona One', sans-serif;
+    animation: rot .8s linear;
+    text-shadow: 2px 2px 2px #fff;
+    position: absolute;
+    top:88%;
+    left:3.5%;
+    
+}
+
+
+@keyframes rot{
+    0%{
+        transform: rotate(-50deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(0deg);
+        opacity:1;
+    }
+}
+
+#pre{
+   padding: 20px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 75%; !important;
+    opacity: .4;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+#pre:hover{
+    transform: scale(1.1);
+    color: crimson;
+    opacity: 1;
+}
+#next:hover{
+    transform: scale(1.1);
+    color: crimson;
+    opacity: 1;
+}
+#next{
+    opacity: .4;
+       border: none;
+    font-size: 30px;
+    color: #fff;;
+    position: absolute;
+    top: 75%; 
+    cursor: pointer;
+    right:0%;
+    background-color: transparent;
+}
+img{
+    margin-top: 200px;
+}
+.hotgame{
+    display: inline-block;
+    
+}
+.hot-head{
+    width: 99%;
+    border:2px solid #000;
+    text-align: center;
+    border-radius: 100px;
+    color: #fff;
+    letter-spacing: 8px;
+    font-family: 'Krona One', sans-serif;
+    position: absolute;
+    text-shadow: 2px 2px 2px #222; 
+    top: 128%;
+    
+}
+#hottie{
+    position: absolute;
+    left: 50%;
+    border: 5px solid #222;
+    border-radius: 20px;
+    color: #fff;
+    transition: .5s;
+}
+#hottie:hover{
+    color:#222;
+    border: 5px solid #fff;
+
+    transform: scale(1.1);
+}
+
+.game-img{
+    margin-left: 400px;
+    width: 400px;
+    height: 100px;  
+    border: 6px solid #fff;
+    border-radius: 22.5px;
+    margin-top: 10px;
+    opacity: .6;
+}
+.game-img{
+    margin-top: 240px;
+    margin-left: 45px;
+    padding: 5px;
+    transition: .5s;
+}
+.hotgame{
+    text-align: center;
+    
+}
+#GTAV_name{
+    position: absolute;
+    top:212%;
+    left: 9.5%;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 16.5px;
+    text-shadow: 2px 2px 2px #222; 
+    
+   
+}
+#PUBG_name{
+    position: absolute;
+    top:157%;
+    left: 42%;
+    color: #fff;
+    font-size: 16.5px;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 2px 2px #222; 
+}
+
+#CSGO_name{
+    position: absolute;
+    top:157%;
+    left: 5.5%;
+    color: #fff;
+    font-size: 16.5px;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 2px 2px #222; 
+}
+#Outlast_name{
+    position: absolute;
+    top:262.5%;
+    left: 15%;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 2px 2px #222; 
+}
+
+#Outlast2_name{
+    position: absolute;
+    top:262.5%;
+    left: 49%;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 2px 2px #222;
+}
+#BlackSquad_name{
+    position: absolute;
+    top:210.5%;
+    left: 48%;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 2px 2px #222;
+}
+.game-img:hover{
+    transform: scale(1.1);
+    border: 5px solid #222;
+    opacity: 1;
+}
+#box{
+    width: 1300px;
+}
+img{
+    width: 1334px;
+}
+
+
+
+
+
