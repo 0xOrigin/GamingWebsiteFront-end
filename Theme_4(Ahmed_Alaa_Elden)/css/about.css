@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    background: url("../img/8.png");
+    background-size:cover;/*بيملي عرض الصفحة*/ 
+    background-attachment: fixed;
+}
+.about{
+    text-align: center;
+    background: #000;
+    width: 80%;
+    margin-bottom: 60px;
+    position: relative;
+    height: 1100px;
+    left: 10%;
+    top: 85px;
+    border: 3px inset #E56E94;
+    color: #FFF;
+    line-height: 47px;
+}
+.about h1{
+    border-bottom: 2px inset #E56E94;
+    line-height: 46px;
+    font-family: cursive;
+}
+.details{
+    text-align: left;
+    position: absolute;
+    left: 13%;
+    width: 73%;
+}
+.details span{
+    color: #E56E94;
+}
+.theme1{
+    /* position: relative;
+    left: 0; */
+    position: relative;
+    left: 122px;
+    color: aqua;
+}

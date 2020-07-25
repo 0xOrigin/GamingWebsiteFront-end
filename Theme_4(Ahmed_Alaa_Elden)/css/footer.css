@@ -1,0 +1,29 @@
+footer{
+   position: relative;
+   height: 13vh;
+   background: #000;
+   /* opacity: 0.9; */
+   color: #FFF;
+   overflow: hidden;
+   border-top: 4px solid #E56E94;
+   /* top: 568px; */
+   top: 92px;
+   z-index: 10;
+}
+.btn-right{
+   position: relative;
+   left: 830px;
+}
+.copyrights{
+   text-align: center;
+   position: relative;
+   top: 35px;
+   right:111px;
+}
+.word{
+   position: relative;
+   bottom: 28px;
+   left:108px;
+   font-size :25px;
+   font-style: italic;
+}

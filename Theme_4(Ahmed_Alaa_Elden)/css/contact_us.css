@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    background: url("../img/12.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+.Contactus{
+    background: #000;
+    /* opacity: 0.9; */
+    width: 40%;
+    /* padding: 54px 0 0px 0px; */
+    /* margin: 0px 0px 118px; */
+    position: relative;
+    height: 470px;
+    left: 30%;
+    top: 85px;
+    border: 3px inset #E56E94;
+    color: #FFF;
+    line-height: 60px;
+}
+.Contactus h1{
+    border-bottom: 2px inset #E56E94;
+    line-height: 46px;
+    text-align: center;
+    font-family: cursive;
+}
+#UserName,#Email,#PhoneNumber{
+    /*width: 100%; */
+    padding: 10px 0px;
+    border-radius: 15px;
+    margin: 5px;
+    outline: none;
+    position: absolute;
+    left: 135px;
+}
+form{
+    position: absolute;
+    left: 50px;
+}
+#PhoneNumber{
+    position: absolute;
+    left: 136px;
+}
+#contactus-textarea-field{
+    padding: 20px 0px;
+}
+.inpt3{
+    position: absolute;
+    left: 300px;
+    border: 0;
+    outline: none;
+    background: #E56E94;
+    color: #FFF;
+    padding: 12px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.inpt3:hover{
+    /* background: #e4799b; */
+    background: #e484a3;
+}

@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    background: url("../img/8.png");
+    background-size:cover;/*بيملي عرض الصفحة*/ 
+    background-attachment: fixed;
+}
+.login-box{
+    /* text-align: center; */
+    background: #000;
+    /* opacity: 0.9; */
+    width: 70%;
+    /* padding: 54px 0 0px 0px; */
+    margin: 0px 0px 118px;
+    position: relative;
+    height: 460px;
+    left: 14%;
+    top: 120px;
+    border: 3px inset #E56E94;
+    color: #FFF;
+    line-height: 47px;
+}
+.login-box h1{
+    text-align: center;
+    border-bottom: 2px inset #E56E94;
+    line-height: 46px;
+    font-family: cursive;
+}
+#email,#password,#CheckBox,#email2{
+    /*width: 100%; */
+    padding: 10px 0px;
+    border-radius: 15px;
+    /* margin: 5px; */
+    outline: none;
+    position: relative;
+}
+#email,#password{
+     position: relative;
+     left: 80px;
+}
+#email{
+    position: absolute;
+    left: 164px;
+    top: 14px
+}
+#loginbutton{
+    position: absolute;
+    top: 206px;
+    border: 0;
+    outline: none;
+    background: #E56E94;
+    color: #FFF;
+    padding: 12px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#loginbutton:hover{ background: #e484a3;}
+.login-left{
+    position: absolute;
+    top: 48px;
+    left: 0;
+    line-height: 63px;
+    /* z-index: 1; */
+    /* border-right: 3px inset #E56E94; */
+    width: 466px;
+    height: 412px; 
+    transition: 1s;transform-style: preserve-3d;
+}
+.front{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 466px;
+    height: 100%;
+    background: #000;
+    /* display: none; */
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.front form,h4{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+h4{
+    cursor: pointer;
+    position: absolute;
+    top: 268px;
+}
+.login-right{
+    position: absolute;
+    left: 590px;
+}
+.back{
+    /* line-height: 82px;  */
+     /* z-index: 1; */
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 466px;
+     height: 100%;
+     background: #000;
+     /* display: none; */
+     transform: rotatex(180deg);
+} 
+h2{
+    border-bottom: 3px inset #E56E94;
+    line-height: 50px;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+}
+.back .fa-arrow-down{
+    position: relative;
+    top: 360px;
+    left: 203px;
+    background: #E56E94;
+    cursor: pointer;
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.back form{
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+    line-height: 48px;
+}
+#submit2{
+    position: absolute;
+    border: 0;
+    right: 69px;
+    top: 235px;
+    outline: none;
+    background: #E56E94;
+    color: #FFF;
+    padding: 12px 50px;
+    border-radius: 50px;
+    width: 90%;
+    cursor: pointer;
+}
+#submit2:hover{
+    background: #e484a3;
+}
+#email2{
+    position: relative;
+    left: 13px;
+    width: 60%;
+    margin-bottom: 32px;
+}
+#confirmemail{
+    margin-bottom: 32px;
+    padding: 10px 13px;
+    outline: none;
+    border-radius: 15px;
+}
+#LastPassword{
+    /*width: 100%; */
+    padding: 10px 25px;
+    border-radius: 15px;
+    /* margin: 5px; */
+    outline: none;
+    position: relative;
+}
+.separator{
+    width: 3px;
+    height: 90%;
+    background: #E56E94;
+    position: absolute;
+    left: 467px;
+}
+.OR{position: absolute;
+    left: 457px;
+    top: 50%;
+    background: #E56E94;
+    border-radius: 18px;
+}
+.login-right i{
+    position: relative;
+    left: 60px;
+    margin: 37px 0;
+    bottom: 5px;
+}
+.login-right a{
+    float: none;
+}
+.login-right .fa-google{
+    background: #F00;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 26px;
+}
+.login-right .fa-facebook-square{
+    background: #00F;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 26px;
+}
+.login-right .fa-twitter{
+    background: aqua;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 26px;
+}

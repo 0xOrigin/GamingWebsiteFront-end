@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+#box1 img{
+    width: 1349px;
+    margin-bottom: -97px;
+}
+.caption{
+    position: absolute;
+    top: 320px;
+    left: 545px;
+    color: #FFF;
+    font-family: cursive;
+    color: #F00;
+}
+/* #Previous{
+    position: absolute;
+    bottom: 204px;
+    background: #E56E94;
+    padding: 5px;
+    border-radius: 6px;
+}
+#Next{
+    position: absolute;
+    left: 1321px;
+    bottom:204px;
+    background: #E56E94;
+    padding: 5px;
+    border-radius: 6px;
+} */
+.subcaption{
+    position: absolute;
+    top: 369px;
+    left: 260px;
+    color: #FFF;
+    font-family: cursive;
+    font-size: 19px;
+    color: aqua;
+    line-height: 32px;
+    width: 800px;
+}
+.game-img{
+    border: 3px inset #E56E94;
+    max-width: 460px;
+    max-height: 94px;
+}
+.hotgames-box1{
+    position: absolute;
+    top: 62px;
+}
+.game-name{font-size: 11px;}
+.hot-head{
+    position: absolute;
+    left: 37px;
+    border-bottom: 5px solid #E56E94;
+}
+.hotgames-box{
+    position: fixed;
+    top: 53px;
+    left: -260px;
+    width: 260px;
+    background: darkorange;
+    z-index: 1;
+    min-height: 100vh;
+    transition: 0.9s;
+}
+.hotgames-box .fa-rocket{
+    position: absolute;
+    right: -30px;
+    top: 282px;
+    cursor: pointer;
+    background: #E56E94;
+    padding: 7px;
+}
+.show{
+    /* width: 200px; */
+    left: 0;
+}

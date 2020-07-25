@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    background: url("../img/8.png");
+    background-size:cover;
+    background-attachment: fixed;
+}
+.compare{
+    background: #000;
+    width: 94%;
+    /* margin: 0px 0px 118px; */
+    position: relative;
+    height: 1000px;
+    /* left: 10%; */
+    left: 40px;
+    top: 85px;
+    border: 3px inset #E56E94;
+    color: #FFF;
+    line-height: 47px;
+}
+.compare h1{
+    border-bottom: 3px inset #E56E94;
+    line-height: 46px;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+}
+.comparecontent button{
+    position: absolute;
+    left: 25%;
+    top: 700px;
+    border: 0;
+    outline: none;
+    background: #E56E94;
+    color: #FFF;
+    padding: 12px 50px;
+    width: 50%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.comparecontent button:hover{
+    background: #e484a3;
+}
+#first-game{
+    position: absolute;
+    left: 110px;
+    top: 500px;
+}
+#second-game{
+    position: absolute;
+    left: 900px;
+    top: 500px;
+}
+.right-arrow{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 240px;
+    top: 355px;
+    color: #E56E94;
+    font-size: 100px;
+}
+.firstgamename{
+    position: absolute;
+    right: 1063px;
+    top: 320px;
+    color: aqua;
+    font-family: cursive;
+}
+.left-arrow{
+    transform: rotate(90deg);
+    position: relative;
+    top: 240px;
+    color: #E56E94;
+    left: 220px;
+    font-size: 100px;
+}
+.secondgamename{
+    position: absolute;
+    top: 320px;
+    left: 1040px;
+    color: aqua;
+    font-family: cursive;
+}
+.bottom-arrow{
+    position: absolute;
+    right: 600px;
+    top: 500px;
+    color: #E56E94;
+    font-size: 150px;
+}
+table{
+    line-height: 30px;
+    border: 1px;
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    left: 110px;
+}
+table,th,td{
+    border: 3px solid rgba(229, 110, 148, 0.31);}
+td{
+    width: 1000px;
+}
+#firstLogo{
+    max-width: 460px;
+    max-height: 215px;
+}

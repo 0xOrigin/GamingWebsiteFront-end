@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    background: url("../img/8.png");
+    background-size:cover;/*بيملي عرض الصفحة*/ 
+    background-attachment: fixed;
+}
+.signup-box{
+    /* text-align: center; */
+    background: #000;
+    /* opacity: 0.9; */
+    width: 85%;
+    /* padding: 54px 0 0px 0px; */
+    margin: 0px 0px 118px;
+    position: relative;
+    height: 460px;
+    left: 65px;
+    top: 120px;
+    border: 3px inset #E56E94;
+    color: #FFF;
+    line-height: 47px;
+}
+.signup-box h1{
+    text-align: center;
+    border-bottom: 2px inset #E56E94;
+    line-height: 46px;
+    font-family: cursive;
+}
+.signup-left{
+    position: absolute;
+    top: 48px;
+    left: 0;
+    line-height: 63px;
+    width: 749px;
+    height: 412px; 
+}
+#signup-email-field,#signup-password-field,#signup-conpassword-field,#signup-name-field,#signup-username-field{
+     padding: 10px 0px;
+     border-radius: 15px;
+     outline: none;
+     position: relative;
+}
+#signup-email-field{
+    position: relative;
+    left: 101px;
+}
+#signup-password-field{
+    position: relative;
+    left: 68px;
+}
+.Create-Account{
+    position: absolute;
+    top: 270px;
+    left: 12%;
+    border: 0;
+    outline: none;
+    background: #E56E94;
+    color: #FFF;
+    padding: 12px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 63%;
+}
+.signup-left form{
+    position: absolute;
+    left: 113px;
+}
+.Create-Account:hover{
+    background: #e484a3;
+}
+.signup-separator{
+    width: 3px;
+    height: 90%;
+    background: #E56E94;
+    position: absolute;
+    left: 645px;
+}
+.OR{position: absolute;
+    left: 634px;
+    top: 50%;
+    background: #E56E94;
+    border-radius: 18px;
+}
+.signup-right i{
+    position: relative;
+    left: 850px;
+    margin: 37px 0;
+    bottom: 5px;
+}
+.signup-right a{
+    float: none;
+}
+.signup-right .fa-google{
+    background: #F00;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 26px;
+}
+.signup-right .fa-facebook-square{
+    background: #00F;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 26px;
+}
+.signup-right .fa-twitter{
+    background: aqua;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 26px;
+}

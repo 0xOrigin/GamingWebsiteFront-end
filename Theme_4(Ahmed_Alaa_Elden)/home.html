@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Depot Games</title>
+    <!-- <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"> -->
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <script src="js/data.js"></script>
+</head>
+<body>
+    <div class="hotgames-box">
+        <i class="fa fa-rocket"></i>
+        <div class="hotgames">
+             <h1 class="hot-head">Hot Games</h1>
+             <div class="hotgames-box1">
+                <a href="games/CounterStrike_Global_Offensive.html">
+                    <div class="hotgame">
+                        <img src="" alt="" id="CSGO_Logo" class="game-img">
+                        <div class="div-layer"></div>
+                        <h2 id="CSGO_name" class="game-name"></h2>
+                    </div>
+                </a>
+                <a href="games/PUBG.html">
+                    <div class="hotgame">
+                        <img src="" alt="" id="PUBG_Logo" class="game-img">
+                        <div class="div-layer"></div>
+                        <h2 id="PUBG_name" class="game-name"></h2>
+                    </div>
+                </a>
+                <a href="games/Outlast.html">
+                    <div class="hotgame">
+                        <img src="" alt="" id="Outlast_Logo" class="game-img">
+                        <div class="div-layer"></div>
+                        <h2 id="Outlast_name" class="game-name"></h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="header.txt"></script>
+    <div id="slider">
+        <div id="box1">
+            <img src="img/14.png"/>
+    </div>
+    <h1 class="caption">Join the Battle</h1>
+    <div class="subcaption">For those in need of some fun and new ways to stay occupied,
+        we’ve put together a list of currently free games
+        that can hopefully play even a small part in bringing you some virtual comfort,
+        escape, and togetherness right now.
+    </div>
+        </div>
+    </div>
+  
+    <script src="jq1.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById("CSGO_Logo").setAttribute("src", CSGO.logo);
+        document.getElementById("CSGO_name").innerHTML = CSGO.name;
+        document.getElementById("Outlast_Logo").setAttribute("src", Outlast.logo);
+        document.getElementById("Outlast_name").innerHTML = Outlast.name;
+        document.getElementById("PUBG_Logo").setAttribute("src", PUBG.logo);
+        document.getElementById("PUBG_name").innerHTML = PUBG.name;
+    </script>
+      <script language="javascript" type="text/javascript" src="footer.txt"></script>
+</body>
+
+</html>
