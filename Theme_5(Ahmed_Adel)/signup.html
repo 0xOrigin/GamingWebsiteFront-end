@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sign-up | Depot Games</title>
+        <link href="font-awesome.min.css" rel="stylesheet">
+        <link href="header.css" rel="stylesheet">
+        <link href="footer.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/sign%20uocss.css">
+        <script src="https://kit.fontawesome.com/42742f0ab6.js" crossorigin="anonymous">
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script language="javascript" type="text/javascript" src="header.txt"></script><br><br>
+        <div class="signup-box">
+            <h1>Sign-up</h1>
+            <div class="signup-left">
+                <div class="signup-front">
+                    <button id="signup-form-btn"><i class="fa fa-envelope fa-2x"></i><span>Sign-up with E-mail</span></button>
+                </div>
+                <div class="signup-back">
+                    
+                    <form method="GET" class="form">
+                        <input type="email" id="signup-email-field" required placeholder="Email"><br>
+                        <input type="password" id="signup-password-field" placeholder="Password" required ><br>
+                        <input type="password" id="signup-conpassword-field" placeholder="Confirm password" required><br>
+                        <input type="text" placeholder="User Name" id="signup-name-field"><br>
+                        <input type="text" placeholder="Name" id="signup-username-field" required><br>
+                        
+                        <div class="select-container">
+                            <label for="signup-dateofbirth-field" class="h">Date of Birth</label><br>
+                                <select class="select-controls select-controls-days" id="select-controls-days" required>
+                                    <option selected value disabled>Day</option>
+                                    <option disabled>-------</option>
+                                </select>
+                                <span class="select-dividor1"></span>
+                                <select class="select-controls select-controls-months" id="select-controls-months" required>
+                                    <option selected value disabled>Month</option>
+                                    <option disabled>-------</option>
+                                </select>
+                                <span class="select-dividor2"></span>
+                                <select class="select-controls select-controls-years" id="select-controls-years" required>
+                                    <option selected value disabled>Year</option>
+                                    <option disabled>-------</option>
+                                </select>
+                            </div>
+                        
+                        <input type="submit" value="Create an account" class="create">
+                    </form>
+                </div>
+            </div>
+            <div class="signup-separator"></div>
+            <span class="OR">OR</span><br><br>
+            <div class="signup-right">
+                <a ><i class="fa fa-google fa-2x"></i></a>
+                <a ><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a ><i class="fa fa-twitter-square fa-2x"></i></a>
+            </div>
+            <div class="for-login">Already have an account? <a href="login.html">Login now!</a></div>
+        </div>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/signup.js"></script>
+        <script language="javascript" type="text/javascript" src="footer.txt"></script>
+    </body>
+</html>
