@@ -1,0 +1,83 @@
+header {
+    background: #FFFFFF;
+    padding: 0;
+    height:70px;
+    text-align: none;
+    margin: 0px;
+    padding-right: 3px;
+    overflow: hidden; 
+  
+    }
+  header h1 {
+      font-family: Lalezar;
+      font-weight: bold;
+      font-size: 50px;
+      margin-right: 0;
+      display: inline-flex;
+      padding-left:2%;
+  }
+  header h1 a:hover{
+      text-decoration: none;
+      color:#222;
+  }
+  
+  .sign{
+      
+      color: #FFFFFF;
+        font-size: 11px;
+      font-weight: bold;
+      text-decoration: none;
+      right: 10%;
+      top:1.9%;
+      margin-left: 62%;
+      margin-top: 0;
+      padding:1%;
+      background: #222;
+      border-radius: 6px;
+      padding-top: 1.19%;
+      padding-bottom: 0.9%;
+      position: absolute;
+      display: flex;
+      
+  }
+  
+  .sign:active,.sign:hover
+  {
+      text-decoration: none;
+      color:#FFFFFF;
+  }
+  .dropdown
+  {   
+      color: #FFFFFF;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 11px;
+      background: #222;
+      border-radius: 6px;
+      margin-top: 0;
+      padding:.5%;
+      right: 2%;
+      position: absolute;
+      top:2%;
+      display: flex;
+      z-index:1001;
+  }
+  .btn,.dropdown-item
+  {
+    font-weight: bold;
+    font-size: 11px;
+  }
+  
+  #myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 10px; 
+    z-index: 1001; 
+    border: none; 
+    outline: none; 
+    background:none; 
+    color: none; 
+    cursor: pointer; 
+    font-size:48px;
+  }

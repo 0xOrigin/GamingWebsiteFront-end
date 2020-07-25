@@ -1,0 +1,138 @@
+
+nav
+{    
+    color: #f2f2f2;
+    background: #222;
+    top:0;
+    height: 70px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    z-index: 1000;
+    width: 98%;
+    right:-1%;
+    border-radius: 16px;;
+    }
+
+.searchbar
+{   
+    width: 15%;
+    height:35px;
+    position: absolute;
+    right: 2%;
+    font-size: 15px;
+    top:25%;
+    background: #eee;
+    display: flex;
+    padding: 1%;
+    border-radius: 10px;
+
+}
+.searchbar:active
+{
+    transform: scale(0.95); 
+}
+
+.searchbar:focus{outline: none;}
+
+.btn-right {
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    direction: none;
+}
+.btn-right:hover {color: rgb(255, 255, 255);}
+
+.navbtn
+{ 
+    display: flex;
+    color: #FFFFFF;
+    cursor: pointer;
+    left:7%;
+    top:0;
+    transform: translate(-5%, -50%);
+}
+
+.nav-links ul
+{
+    float:left;
+    margin-right: 20px;
+    
+}
+.nav-links li
+{
+    display:inline-block;
+    line-height: 50px;
+    margin: 5px 5px ;
+}
+.nav-links a ,.search{
+    color: #FFFFFF;
+    padding: 7px;
+	font-size: 18px;
+    font-weight: bold;
+	text-decoration: none;
+    margin: 15px 0;
+}
+
+ul a.active,ul a:hover
+{
+    background: rgb(48, 47, 47);
+    transition: .5s;
+    border-radius: 10px;
+    background-size: auto;
+}
+.list{
+    width: 30%;
+    color:#222;
+    background: #222;
+    left:60%;
+}
+
+input
+{
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 70%;
+}
+
+button nav
+{  
+    border-radius: 20px;
+    border : 1px solid #222;
+    background-color: #222;
+    color :#FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    padding :12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in; 
+    display: flex;
+}
+button nav:active
+{
+    transform: scale(0.95); /*TO GET EFFECT THAT MACK BUTTON GET BIGER */
+}
+
+button:focus{outline: none;}/*out line disappear*/
+
+.content {
+    padding: 16px;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  

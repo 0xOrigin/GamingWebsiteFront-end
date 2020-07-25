@@ -1,0 +1,340 @@
+@font-face {
+  src: url(../fonts/Lalezar-Regular.ttf);
+  font-family:Lalezar;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+html
+{
+  scroll-behavior:smooth;
+  height: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+	  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #222;
+}
+
+    
+
+.content
+{ 
+  background-color: #222;
+	border-radius: 10px;
+  box-shadow:10px 0 14px 28px rgba(0,0,0,0.2), 5px 0 10px 10px rgba(0,0,0,0.2);
+	overflow: hidden;
+  min-height:800px;
+  padding: 50px;
+  margin: 20px;
+}
+.main{
+  overflow:hidden;
+  padding-bottom: 60px ;
+  min-height:800px;
+  border-radius: 10px;
+  background-color: #222;
+
+}
+
+*{   
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(126, 126, 126); 
+    border-radius: 0px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background:#222; 
+    border-radius: 25px;
+    animation: 10s ease-in-out;
+    block-size: 10px;
+  
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(63, 62, 62); 
+}
+
+button:focus{outline: none;}/*out line disappear*/
+
+
+#slider {
+  position: relative;
+  height: 500px;
+  background-color: #222;
+  border-color: #2222;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#slider button {
+  border-color: #222;
+  background-color: #242526;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+}
+
+.prew {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  margin: auto 0px;
+  border-width: 2px 0px 2px 0px;
+  border-radius: 0px 10px 10px 0px;
+  border-radius: 10%;
+}
+
+.next {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin: auto 0px;
+  border-width: 2px 0px 2px 0px;
+  border-radius: 10px 0px 0px 10px;
+
+}
+
+
+#box img{
+  background-size: cover;
+  background-color: #fff;
+	border-radius: 10px;
+  box-shadow: 0 50px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+  height: 500px;
+  animation-name: img;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+ 
+}
+
+@keyframes img {
+  0% {opacity: 0;}
+  5% {opacity: 0.10;}
+  10% {opacity: 0.20;}
+  15% {opacity: 0.30;}
+  20% {opacity: 0.40;}
+  25% {opacity: 0.50;}
+  30% {opacity: 0.60;}
+  35% {opacity: 0.70;}
+  40% {opacity: 0.80;}
+  45% {opacity: 0.90;}
+  50% {opacity: 1;}
+  55% {opacity: 0.90;}
+  60% {opacity: 0.80;}
+  65% {opacity: 0.70;}
+  70% {opacity: 0.60;}
+  75% {opacity: 0.50;}
+  80% {opacity: 0.40;}
+  85% {opacity: 0.30;}
+  90% {opacity: 0.20;}
+  95% {opacity: 0.10;}
+  100% {opacity: 0;}
+}
+
+.caption {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin: 140px auto;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.subcaption {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin: 220px auto;
+  width: 810px;
+  text-align: center;
+  line-height: 33px;
+  font-size: 22px;
+ 
+  color: white;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242526;
+  opacity: 0.70 ;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.hotGames-box {
+  position: relative;
+  text-align: justify;
+  min-height: 1000px;
+  background-color: #1f1f1f;
+}
+
+.hotGames-box .down-icon {
+  display: inline-block;
+  text-align: center;
+  width: 104px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -104px;
+  margin: 0px auto;
+  color: #908d8d;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 1px 1px black;
+  opacity: 0.5;
+  padding-bottom: 20px;
+  border: 2px groove orangered;
+  border-width: 2px 0px;
+  cursor: pointer;
+}
+
+.hotGames-box .hG-b {
+  position: relative;
+  height: 595px;
+  margin: 104px 0px 0px 0px;
+  cursor: default;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+}
+
+.hotGames-box .hG-b h1 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.hotGames-box .hG-b .sep {
+  width: 260px;
+  height: 1px;
+  background-color: #6E6F72;
+  position: absolute;
+  top: 85px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+}
+
+.hotGames-box .hG-b .flex-box1 , .hotGames-box .hG-b .flex-box2 , .hotGames-box .hG-b .flex-box3 {
+  display: flex;
+  justify-content: center;
+}
+
+.hotGames-box .hG-b .hotgame {
+  position: relative;
+  margin: 40px;
+  width: 370px;
+  height: 220px;
+  padding-top: 0.5px;
+  border-width: 2px;
+  border-radius: 16px;
+  font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hotGames-box .hG-b .hotgame:hover , .hotGames-box .hG-b .hotgame:focus {
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
+}
+
+.hotGames-box .hG-b a {
+  display: contents;
+  text-decoration: none;
+  color: white;
+}
+
+.hotGames-box .hG-b a .hotgame .game-img {
+  width: 370px;
+  height: 180px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px; 
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+
+.hotGames-box .hG-b a .hotgame .div-layer {
+  display: inline-block;
+  background-color: #242526;
+  opacity: 0.60;
+  background-size: cover;
+  height: 150px;
+  width: 375px;
+  position: absolute;
+  top: 2.5px;
+  left: 2px;
+  border-radius: 3px;
+}
+
+.hotGames-box .hG-b a .hotgame .game-name {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 186px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 231, 231);
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
