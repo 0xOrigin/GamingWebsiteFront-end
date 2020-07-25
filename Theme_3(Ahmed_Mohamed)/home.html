@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home | Depot Games</title>
+        <link href="CSS/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="CSS/header.css" rel="stylesheet">
+        <link href="CSS/footer.css" rel="stylesheet">
+        <link href="CSS/main.css" rel="stylesheet">
+        <script src="JavaScript/data.js"></script>
+    </head>
+    <body>
+        
+        <!--Header-->
+        <nav>
+            <div class="logo">
+                <h4>||&nbsp;Depot Games&nbsp;||</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="compare.html">Compare Games</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+            <div>
+                <button id="nav-others-btn" type="button" onclick="nav_others()"><i class="fa fa-bars"></i></button>
+                <button id="nav-exit-btn" type="button" onclick="nav_exit()"><i class="fa fa-times"></i></button>
+            </div>
+            
+            <div>
+                <button id="themes-btn" type="button" onclick="themes_others()">Themes <i class="fa fa-caret-down"></i></button>
+                <button id="themes-exit-btn" type="button" onclick="themes_exit()"><i class="fa fa-times"></i></button>
+            </div>
+        </nav>
+        <div class="nav-others-box">
+            <div id="nav-others">
+                <ul>
+                    <li><a href="login.html"><i class="fa fa-user-circle-o"></i>
+                    Login</a></li>
+                    <li><a href="signup.html"><i class="fa fa-sign-in"></i> Sign-up</a></li>
+                    <li><a href="contact_us.html"><i class="fa fa-question"></i>
+                    Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="themes-others-box">
+            <div id="themes-others">
+                <ul>
+                     <li><a href="../Theme_1(Ahmed_Maher)/#" id ="theme1">Theme 1</a></li>
+                    <li><a href="../Theme_2(Ahmed_Ezzat)/#" id ="theme2">Theme 2</a></li>
+                    <li><a href="../Theme_3(Ahmed_Mohamed)/#" id ="theme3">Theme 3</a></li>
+                    <li><a href="../Theme_4(Ahmed_Alaa_Elden)/#" id ="theme4">Theme 4</a></li>
+                    <li><a href="../Theme_5(Ahmed_Adel)/#" id ="theme5">Theme 5</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--End of header-->
+        <main>
+        <div class="main-box">
+            <div id="slider">
+                <div id="box">
+                    <img src="../images/6.jpg" />
+                </div>
+                <div class="layer"></div>  
+                <h1 class="caption">Join the Battle</h1>
+                <div class="subcaption">For those in need of some fun and new ways to stay occupied,
+                    we’ve put together a list of currently free games
+                    that can hopefully play even a small part in bringing you some virtual comfort,
+                    escape, and togetherness right now.
+                </div>
+                <button class="prew fa fa-chevron-circle-left fa-lg" onclick="setInterval(prewImage(),5000)" title="Previous"></button>
+                <button class="next fa fa-chevron-circle-right fa-lg" onclick="setInterval(nextImage(),5000)" title="Next"></button>
+            </div>
+            <a class="hot-games-btn" href="#hot_games" style="text-decoration: none;"><div class="fa fa-chevron-down fa-3x down-icon"></div></a>
+            <div id="hot_games"></div>
+            <div class="hotGames-box">
+                <div class="hG-b">
+                    <h1 class="hot-head">Hot Games</h1>
+                    <div class="sep"></div>
+                    <br/>
+                    <div class="flex-box1">
+                        <a href="games/CounterStrike_Global_Offensive.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="CSGO_Logo" class="game-img">
+                                <div class="div-layer"></div>
+                                <h2 id="CSGO_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                        <a href="games/PUBG.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="PUBG_Logo" class="game-img">
+                                <div class="div-layer"></div>
+                                <h2 id="PUBG_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                        <a href="games/GTA_V.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="GTAV_Logo" class="game-img">
+                                <div class="div-layer"></div>
+                                <h2 id="GTAV_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex-box2">
+                        <a href="games/Black_Squad.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="BlackSquad_Logo" class="game-img">
+                                <div class="div-layer"></div>
+                                <h2 id="BlackSquad_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                        <a href="games/Outlast.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="Outlast_Logo" class="game-img">
+                                <div class="div-layer"></div>
+                                <h2 id="Outlast_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                        <a href="games/Outlast_2.html">
+                            <div class="hotgame">
+                                <img src="" alt="" id="Outlast2_Logo" class="game-img">
+                                <div class="div-layer"></div>
+                                <h2 id="Outlast2_name" class="game-name"></h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>    
+        <!--Footer-->
+        <footer>
+            <p>&copy; 2020 ||&nbsp;Depot Games&nbsp;|| team. All copyrights reserved.</p>
+            <div class="conditions">
+                <a href="#">Privacy policy</a>
+                <p> ||&nbsp;</p>
+                <a href="#">Terms &amp; conditions</a>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li><a href="#" title="Facebook"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+                    <li><a href="#" title="Twitter"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                    <li><a href="#" title="Instagram"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    <li><a href="#" title="Youtube"><i class="fa fa-youtube-square fa-lg"></i></a></li>
+                    <li><a href="#" title="Github"><i class="fa fa-github-square fa-lg"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        
+        <!--End of Footer-->
+        <script src="JavaScript/header.js"></script>
+        <script src="JavaScript/jquery-3.4.1.min.js"></script>
+        <script src="JavaScript/main.js"></script>
+        <script>
+            document.getElementById("CSGO_Logo").setAttribute("src",CSGO.logo);
+            document.getElementById("CSGO_name").innerHTML = CSGO.name;
+            document.getElementById("Outlast_Logo").setAttribute("src",Outlast.logo);
+            document.getElementById("Outlast_name").innerHTML = Outlast.name;
+            document.getElementById("Outlast2_Logo").setAttribute("src",Outlast2.logo);
+            document.getElementById("Outlast2_name").innerHTML = Outlast2.name;
+            document.getElementById("PUBG_Logo").setAttribute("src",PUBG.logo);
+            document.getElementById("PUBG_name").innerHTML = PUBG.name;
+            document.getElementById("GTAV_Logo").setAttribute("src",GTA_V.logo);
+            document.getElementById("GTAV_name").innerHTML = GTA_V.name;
+            document.getElementById("BlackSquad_Logo").setAttribute("src",BlackSquad.logo);
+            document.getElementById("BlackSquad_name").innerHTML = BlackSquad.name;
+        </script>
+        <script src="JavaScript/themes.js"></script>
+    </body>
+</html>

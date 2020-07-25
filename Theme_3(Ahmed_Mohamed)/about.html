@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About | Depot Games</title>
+        <link href="CSS/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="CSS/header.css" rel="stylesheet">
+        <link href="CSS/footer.css" rel="stylesheet">
+        <link href="CSS/about.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Header-->
+        <nav>
+            <div class="logo">
+                <h4>||&nbsp;Depot Games&nbsp;||</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="compare.html">Compare Games</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+            <div>
+                <button id="nav-others-btn" type="button" onclick="nav_others()"><i class="fa fa-bars"></i></button>
+                <button id="nav-exit-btn" type="button" onclick="nav_exit()"><i class="fa fa-times"></i></button>
+            </div>
+            
+            <div>
+                <button id="themes-btn" type="button" onclick="themes_others()">Themes <i class="fa fa-caret-down"></i></button>
+                <button id="themes-exit-btn" type="button" onclick="themes_exit()"><i class="fa fa-times"></i></button>
+            </div>
+        </nav>
+        <div class="nav-others-box">
+            <div id="nav-others">
+                <ul>
+                    <li><a href="login.html"><i class="fa fa-user-circle-o"></i>
+                    Login</a></li>
+                    <li><a href="signup.html"><i class="fa fa-sign-in"></i> Sign-up</a></li>
+                    <li><a href="contact_us.html"><i class="fa fa-question"></i>
+                    Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="themes-others-box">
+            <div id="themes-others">
+                <ul>
+                    <ul>
+                       <li><a href="../Theme_1(Ahmed_Maher)/#" id ="theme1">Theme 1</a></li>
+                    <li><a href="../Theme_2(Ahmed_Ezzat)/#" id ="theme2">Theme 2</a></li>
+                    <li><a href="../Theme_3(Ahmed_Mohamed)/#" id ="theme3">Theme 3</a></li>
+                    <li><a href="../Theme_4(Ahmed_Alaa_Elden)/#" id ="theme4">Theme 4</a></li>
+                    <li><a href="../Theme_5(Ahmed_Adel)/#" id ="theme5">Theme 5</a></li>
+                </ul>
+                </ul>
+            </div>
+        </div>
+        <!--End of Header-->
+        <main>
+            <div class="about-box">
+                <h1>About</h1>
+                <p class="title">This is our project for Internet Technology course.</p>
+                <div class="sep"></div>
+                <p class="p-doc">Documentation:</p>
+                <div class="sep-doc"></div>
+                <div class="doc-box">
+                <!--    <div class="names">
+                        <p>Ahmed Maher AbdElkader <span>(Team leader)</span></p>
+                        <p>Ahmed Ezzat Nasr</p>
+                        <p>Ahmed Adel Ahmed</p>
+                        <p>Ahmed Mohamed Ghobashy</p>
+                        <p>Ahmed Alaa Elden AbdElrady</p>
+                        <p>Ahmed AbdElmo'men Ahmed</p>
+                    </div>
+                    <div class="works">
+                        <p>Theme 1 (home,login, signup, search, compare, contact-us, about, game-names, themes.js [link between all themes]</p>
+                        <p>Dark theme</p>
+                        <p>...........</p>
+                        <p>...........</p>
+                        <p>...........</p>
+                        <p>...........</p>
+                    </div>-->
+                    <table>
+                        <tr>
+                            <th>NAMES</th>
+                            <th>WORKS</th>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Maher AbdElkader (Team leader)</td>
+                            <td>Theme 1 (home,login, signup, search, compare, contact-us, about, game-names, data.js ,themes.js [link between all themes])</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Ezzat Nasr</td>
+                            <td>Theme 2 (home,login, signup, search, compare, contact-us, about, game-names, data.js, search.js, compare.js)</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Mohamed Ghobashy</td>
+                            <td>Theme 3 (home,login, signup, search, compare, contact-us, about, header.html, footer.html)</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Alaa Elden AbdElrady</td>
+                            <td>Theme 4 (home,about,contact-us,signup,login)</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Adel Ahmed</td>
+                            <td>Theme 5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <!--Footer-->
+        <footer>
+            <p>&copy; 2020 ||&nbsp;Depot Games&nbsp;|| team. All copyrights reserved.</p>
+            <div class="conditions">
+                <a href="#">Privacy policy</a>
+                <p> ||&nbsp;</p>
+                <a href="#">Terms &amp; conditions</a>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li><a href="#" title="Facebook"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+                    <li><a href="#" title="Twitter"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                    <li><a href="#" title="Instagram"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    <li><a href="#" title="Youtube"><i class="fa fa-youtube-square fa-lg"></i></a></li>
+                    <li><a href="#" title="Github"><i class="fa fa-github-square fa-lg"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        
+        <!--End of Footer-->
+        <script src="JavaScript/jquery-3.4.1.min.js"></script>
+        <script src="JavaScript/header.js"></script>
+        <script src="JavaScript/themes.js"></script>
+    </body>
+</html>
