@@ -1,0 +1,177 @@
+#compare-box
+{
+    position: relative;
+    background-color: #2c3531;
+    left: 50%;
+    top: 90px;
+    width: 60%;
+    height: 290px;
+    transform: translate(-50%);
+    padding: 20px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    transition: .5s;
+    overflow: hidden;
+}
+#compare-box h1
+{
+    box-shadow: 0 0 6px 2px;
+    color: wheat;
+    text-align: center;
+    background-color: #182628;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.compare-controls
+{
+    position: relative;
+    background-color: #182628;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin: 0px 0;
+    overflow: hidden;
+}
+.compare-controls h2
+{
+    text-align: center;
+    color: wheat;
+    position: absolute;
+    top: 22%;
+    padding: 2px 5px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    background-color: #2c3531;
+    width: 180px;
+    
+}
+.first-head
+{
+    left: 23%;
+}
+.second-head
+{
+    left: 53%;
+}
+#left-arrow,#right-arrow
+{
+    position: absolute;
+    top: 22%;
+    color: wheat;
+    -webkit-text-stroke: 1px black;
+}
+#left-arrow
+{
+    left: 15%
+}
+#right-arrow
+{
+    left: 79%;
+}
+#first-game,#second-game
+{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    background-color: #2c3531;
+    color: wheat;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    padding: 3px;
+    outline: none;
+    cursor: pointer;
+    
+}
+#first-game:hover,#second-game:hover
+{
+    background-color: black;
+    transition: .5s;
+}
+#first-game
+{
+    left: 15%;
+}
+#second-game
+{
+    left: 18.5%
+}
+.compare-controls button
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,480%);
+    cursor: pointer;
+    background-color: #2c3531;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 3px 5px;
+    color: wheat; 
+    outline: none;
+}
+.compare-controls button:hover
+{
+    background-color: black;
+    transition: .5s;
+    
+}
+/*--------------------------------------------------------------------------------------------*/
+.compare-data
+{
+    overflow: hidden;
+    padding: 20px;
+    display: none;
+    background-color: #182628;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+table
+{
+    width: 100%;
+}
+table td
+{
+    text-align: center;
+    border: 1px solid wheat;
+    padding: 5px;
+    color: wheat;
+}
+table
+{
+    padding: 10px;
+    overflow: hidden;
+}
+#first-th,#second-th
+{
+    border: 1px solid wheat;
+}
+#firstLogo,#secondLogo
+{
+    width: 300px;
+}
+th h2
+{
+    color: white;
+    margin: 10px;
+}
+td strong
+{
+    color: white;
+}
+
+#compare-back-btn
+{
+    border: 1px solid transparent;
+    margin-left: 5px;
+    color: wheat;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px;
+}
+#compare-back-btn:hover
+{
+    background-color: black;
+    border: 1px solid wheat;
+    transition: .5s;
+}

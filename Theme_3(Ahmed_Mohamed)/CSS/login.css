@@ -1,0 +1,231 @@
+#main-id
+{
+    min-height: calc(110vh - 48.79px - 100px);
+    background-color: #182628;
+    font-family: sans-serif;
+    
+}
+#login-box
+{
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%,-50%);
+    background-color: #2c3531;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 20px;
+    color: wheat;
+    border: 1px solid wheat;
+    overflow: hidden;
+    cursor: default
+}
+#login-box h1
+{
+    text-align: center;
+    background-color: #182628;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    margin-bottom: 10px;
+    
+}
+#login-front
+{
+    position: absolute;
+    transform: translateX(0px);
+}
+#login-email-field,#login-password-field
+{
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: .5px solid wheat;
+    padding: 5px;
+    margin: 6px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: wheat;
+}
+#login-email-field:hover,#login-password-field:hover
+{
+    padding-left: 7px;
+    transition: .5s;
+    border-bottom: .5px solid white;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+}
+#login-email-field:focus,#login-password-field:focus
+{
+    padding-left: 7px;
+    transition: .5s;
+    border-bottom: .5px solid white;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+}
+#login-rem-check
+{
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    margin: 6px;
+    margin-top: 0;
+    margin-right: 1px;
+    margin-bottom: 9px;
+}
+#login-rem-lab
+{
+    font-size: 13.5px;
+}
+#login-submit-button
+{
+    margin: 6px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 2px 7px;
+}
+#login-submit-button:hover
+{
+    background-color: #182628;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+#login-front h3
+{
+    display: inline;
+    margin: 6px;
+    margin-right: 0px;
+    color: white;
+}
+.forgot-btn
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 2px 7px;
+    margin-bottom: 15px;
+}
+.forgot-btn:hover
+{
+    color: #182628;
+    background-color: wheat;
+    border-radius: 3px;
+    transition: .5s;
+}
+.OR
+{
+    margin-left: 6px;
+    color: white;
+}
+.btn-google,.btn-facebook,.btn-twitter
+{
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 6px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid wheat;
+}
+.btn-google:hover,.btn-facebook:hover,.btn-twitter:hover
+{
+    background-color: #182628;
+    border: 1px solid white;
+    transition: .5s;
+}
+.login-right button a
+{
+    text-decoration: none;
+    color: wheat;
+}
+.for-signup
+{
+    margin: 6px;
+}
+.for-signup a
+{
+    display: block;
+    color: white;
+    font-size: 14px;
+    
+}
+/*-------------------------------------------------------------------*/
+#login-back
+{
+    transform: translateX(400px);
+    position: absolute;
+    margin: 6px;
+}
+#login-back h3
+{
+    text-align: center;
+}
+#login-emailreset-field
+{
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: .5px solid wheat;
+    padding: 5px;
+    margin: 6px;
+    display: block;
+    margin-bottom: 10px;
+    color: wheat;
+}
+#login-emailreset-field:hover
+{
+    padding-left: 7px;
+    transition: .5s;
+    border-bottom: .5px solid white;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+}
+#login-emailreset-field:focus
+{
+    padding-left: 7px;
+    transition: .5s;
+    border-bottom: .5px solid white;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+}
+#login-submitreset-button
+{
+    margin: 6px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 2px 7px;
+    display: block;
+}
+#login-submitreset-button:hover
+{
+    background-color: #182628;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+
+
+

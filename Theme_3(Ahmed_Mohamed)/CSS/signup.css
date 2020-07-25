@@ -1,0 +1,168 @@
+main
+{
+    min-height: calc(133vh - 48.79px - 100px);
+}
+.signup-box
+{
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    transform: translate(-50%,-50%);
+    background-color: #2c3531;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    color: wheat;
+    border: 1px solid wheat;
+    overflow: hidden;
+}
+.signup-box input
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.signup-box h1
+{
+    text-align: center;
+    background-color: #182628;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    margin-bottom: 10px;
+}
+.signup-front
+{
+    padding-bottom: 10px;
+    border-bottom: .5px solid rgba(255,255,255,0.2);
+}
+.signup-front button
+{
+    margin: 6px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 2px 7px;
+}
+.signup-front button:hover
+{
+    background-color: #182628;
+    border: 1px solid white;
+    transition: .5s;
+}
+.signup-back
+{
+    margin-left: 6px;
+    margin-top: 15px;
+}
+.signup-information
+{
+    border-bottom: .5px solid rgba(255,255,255,0.2);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#signup-email-field,#signup-password-field,#signup-conpassword-field,#signup-name-field,#signup-username-field
+{
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: .5px solid wheat;
+    padding: 5px;
+    display: block;
+    color: wheat;
+}
+#signup-email-field:hover,#signup-password-field:hover,#signup-conpassword-field:hover,#signup-name-field:hover,#signup-username-field:hover
+{
+    padding-left: 7px;
+    transition: .5s;
+    border-bottom: .5px solid white;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+}
+#signup-email-field:focus,#signup-password-field:focus,#signup-conpassword-field:focus,#signup-name-field:focus,#signup-username-field:focus
+{
+    padding-left: 7px;
+    transition: .5s;
+    border-bottom: .5px solid white;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+}
+#select-controls-days,#select-controls-months,#select-controls-years
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    color: wheat;
+    border-radius: 2px;
+    border: 1px solid wheat;
+}
+.select-container
+{
+    border-bottom: .5px solid rgba(255,255,255,0.2);
+    margin-bottom: 10px;
+}
+#create-account
+{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 2px 7px;
+}
+#create-account:hover
+{
+    background-color: #182628;
+    border: 1px solid white;
+    transition: .5s;
+}
+.OR
+{
+    margin-left: 6px;
+    margin-bottom: 10px;
+    color: white;
+}
+.signup-right button
+{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 2px 7px;
+    margin: 6px;
+}
+.signup-right button:hover
+{
+    background-color: #182628;
+    border: 1px solid white;
+    transition: .5s;
+}
+.signup-right button a
+{
+    text-decoration: none;
+    color: wheat;
+}
+.for-login
+{
+    margin-left: 6px;
+    margin-top: 10px;
+    color: white;
+}
+.for-login a
+{
+    display: block;
+    color: wheat;
+    font-size: 13px;
+}
